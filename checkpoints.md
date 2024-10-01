@@ -6,6 +6,11 @@
 
 * знакомство со статьей GraphRAG Local Ollama - Knowledge Graph (https://github.com/TheAiSingularity/graphrag-local-ollama) (отв.: **СОВМЕСТНО**)
 
+
+  
+
+# Checkpoint_2
+
 ## 07.10-15.10
 
 * подбор датасетов для задачи (Musique (https://github.com/stonybrooknlp/musique), HotpotQA (https://hotpotqa.github.io/)) (отв.: **СОВМЕСТНО**)
