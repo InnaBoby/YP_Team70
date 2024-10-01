@@ -2,21 +2,21 @@
 
 ## 01.10-06.10 
 
-* Создание репозитория и необходимой документации
+* Создание репозитория и необходимой документации (отв.: **Бобылина**)
 
-* знакомство со статьей GraphRAG Local Ollama - Knowledge Graph (https://github.com/TheAiSingularity/graphrag-local-ollama)
+* знакомство со статьей GraphRAG Local Ollama - Knowledge Graph (https://github.com/TheAiSingularity/graphrag-local-ollama) (отв.: **СОВМЕСТНО**)
 
 ## 07.10-15.10
 
-* подбор датасетов для задачи (Musique (https://github.com/stonybrooknlp/musique), HotpotQA (https://hotpotqa.github.io/))
+* подбор датасетов для задачи (Musique (https://github.com/stonybrooknlp/musique), HotpotQA (https://hotpotqa.github.io/)) (отв.: **СОВМЕСТНО**)
 
-* EDA датасетов (описание, проблемы в данных, частотность слов, визуализация)
+* EDA датасетов (описание, проблемы в данных, частотность слов, визуализация) (отв.: Musique - **Георгий, Ксюша**, HotpotQA - **Тимур, Инна**) 
 
 ## 16.10-25.10
 
-* ресурсы: разворачивание сервера/облачные решения
+* ресурсы: разворачивание сервера/облачные решения (отв.: **совместно**)
 
-* создание БД
+* создание БД: предобработка текста, векторизация
 
 ## 25.10-31.10
 
