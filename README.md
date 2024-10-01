@@ -3,18 +3,18 @@
 
 ## Куратор: 
 
-* Беляев Артём (tg: @karaoke_tutu)
+* Беляев Артём (tg: @karaoke_tutu, github: artbelyaev0)
 
 
 ## Команда 70:
 
-* Бобылина Инна владимировна (tg: @inna_boby)
+* Бобылина Инна владимировна (tg: @inna_boby, github: inna_boby)
   
-* Джомиади Георгий Анастасович (tg: @george_dz)
+* Джомиади Георгий Анастасович (tg: @george_dz, github: jomiadi)
 
-* Самигуллин Тимурбулат Рашитович (tg: @timurlalala)
+* Самигуллин Тимурбулат Рашитович (tg: @timurlalala, github: timurlalala)
 
-* Шерман Ксения Валерьевна (tg: @dobroye_ytro)
+* Шерман Ксения Валерьевна (tg: @dobroye_ytro, github: ShermanKsenia)
 
 ## Описание проекта
 
