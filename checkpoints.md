@@ -11,7 +11,7 @@
 
 # Checkpoint_2
 
-## 07.10-15.10
+## 07.10-03.11
 
 * подбор датасетов для задачи (Musique (https://github.com/stonybrooknlp/musique), HotpotQA (https://hotpotqa.github.io/)) (отв.: **СОВМЕСТНО**)
 
