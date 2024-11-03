@@ -1,5 +1,5 @@
 ## Распределение числовых данных
-![distribution_of_numbers](/images/distribution_of_numbers.png)
+![distribution_of_numbers](images/distribution_of_numbers.png)
 К числовым переменным относятся:
 - количество параграфов в контексте (num_of_ctx)
 - количество слов в контексте (num_of_words)
@@ -15,7 +15,7 @@ __Выводы:__
 - Длина вопроса в среднем около 25 слов
 
 ## Распределение текстовых переменных
-![distribution_of_type_level](/images/distribution_of_level_type.png)
+![distribution_of_type_level](images/distribution_of_level_type.png)
 
 К текстовым переменным относятся:
 - вопрос (question)
@@ -34,7 +34,7 @@ __Выводы:__
 Среди ответов, действительно, самимы частыми являются "да" и "нет", однако так же есть короткие, одно-двусловные, ответы, являющиеся общими, например, названия географических объектов (United States, New York), профессий (film director), животных (dog).
 
 В статье авторы также представляют распределения по типам ответов в процентах:
-![answer_types](/images/answers_types.png)
+![answer_types](images/answers_types.png)
 
 __Наиболее частые наборы слов в ответах (н-граммы):__
 - наиболее частое слово - the
@@ -53,10 +53,10 @@ __Наиболее частая часть речи:__
 
 ## Анализ вопросов
 Понять о чем вопрос помогают вопросительные слова (_wh-слова_), а также вспомогательные слова (_is_, _are_, _was_...). На следующем облаке слов визуализация частых вопросительных и вспомогательных слов в вопросах.
-![wordcloud_qw](/images/question_words_cloud.png)
+![wordcloud_qw](images/question_words_cloud.png)
 
 Можно также визуализировать _триграммы вопроса_, чтобы определить основное направление того, о чем вопрос.
-![wordcloud_tri](/images/question_trigrams_cloud.png)
+![wordcloud_tri](images/question_trigrams_cloud.png)
 
 __Наиболее частые наборы слов в ответах (н-граммы):__
 - наиболее частое слово - the
