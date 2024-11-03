@@ -1,4 +1,4 @@
-Ссылка на датасет: https://drive.google.com/drive/folders/1sg3FJkGfirXSJtFIgQvvxpMdAl_Zui51?usp=share_link
+Ссылка на датасет: https://disk.yandex.kz/d/VhKzhFuZwYiuhg
 
 ### Набор данных содержит вопросы и ответы на них, собранные из различных датасетов (SQuAD, T-REx, Natural Questions, MLQA, Zero Shot RE). 
 
