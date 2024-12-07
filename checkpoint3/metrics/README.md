@@ -15,7 +15,11 @@ __Text quality metrics:__
  3. (Optional) Take the probabilities of the output tokens from the LLM to normalize the score and take their weighted summation as the final result.
  Можно взять методику сравнения ответов из статьи про граф-раг:
  Our head-to-head measures computed using an LLM evaluator are as follows:
+ 
  • Comprehensiveness. How much detail does the answer provide to cover all aspects and details of the question?
+ 
  • Diversity. How varied and rich is the answer in providing different perspectives and insights on the question?
+ 
  • Empowerment. How well does the answer help the reader understand and make informed judgements about the topic?
+ 
  • Directness. How specifically and clearly does the answer address the question?
