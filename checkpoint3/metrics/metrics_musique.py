@@ -62,11 +62,7 @@ def evaluate(filepath_with_predictions: str, filepath_with_ground_truths: str) -
         ] + ground_truth_instance["answer_aliases"]
 
         predicted_support_indices = prediction_instance["predicted_support_idxs"]
-        ground_truth_support_indices = [
-            paragraph["idx"]
-            for paragraph in ground_truth_instance["paragraphs"]
-            if paragraph["is_supporting"]
-        ]
+        ground_truth_support_indices = ground_truth_instance["support_idxs"]
 
         predicted_sufficiency = prediction_instance["predicted_answerable"]
         ground_truth_sufficiency = ground_truth_instance["answerable"]
