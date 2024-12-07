@@ -1,3 +1,15 @@
+## Файлы подсчета метрик:
+__Hotpot:__ metrics_hotpot.py, запускается через командную строку
+```
+python metrics_hotpot.py path_to_predictions_json path_to_golden_answers_json
+```
+
+__Musique:__ metrics_musique.py, запускается через командную строку (--output_filepath - optional, без него будет выводиться в терминал)
+```
+python metrics_hotpot.py path_to_predictions_jsonl path_to_golden_answers_jsonl --output_filepath path_to_write_metrics
+```
+
+## Описание данных и метрик
 __Hotpot:__
  - названия параграфов и номера предложений,  соответствующие ответу (supporting facts)
  - сам ответ (answer)
