@@ -12,12 +12,11 @@ app = FastAPI(
 
 class StatusResponse(BaseModel):
     status: str
-
     model_config = ConfigDict(
         json_schema_extra={"examples": [{"status": "App healthy"}]}
     )
 
-@app.get("/")
+@app.get("/", response_model=StatusResponse)
 async def root():
     return StatusResponse(status='App healthy')
 

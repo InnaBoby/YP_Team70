@@ -1,13 +1,10 @@
 from langchain_ollama import ChatOllama
-# from langchain_openai import ChatOpenAI
-from langchain_core.language_models.chat_models import BaseChatModel
 from langchain_core.vectorstores.base import BaseRetriever
 from langchain.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser, StrOutputParser
 import re
-import json
 from pydantic import BaseModel, RootModel, Field
-from typing import List, Literal, Optional, Union
+from typing import List, Union
 import logging
 
 
