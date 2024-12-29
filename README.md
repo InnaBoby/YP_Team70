@@ -29,7 +29,6 @@ Retrieval Augmented Generation (RAG) – способ добавления до�
 2.	[HotPot](https://hotpotqa.github.io/)
 
 Описание и анализ данных можно найти в папке [chekpoint2](chekpoint2/)
-![image](https://github.com/user-attachments/assets/671fedff-e66d-4023-a45f-504ade6d9a5c)
 
 
 
