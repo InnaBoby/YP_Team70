@@ -28,7 +28,7 @@ Retrieval Augmented Generation (RAG) – способ добавления до�
 1.	[MuSiQue](https://github.com/stonybrooknlp/musique)
 2.	[HotPot](https://hotpotqa.github.io/)
 
-Описание и анализ данных можно найти в папке [chekpoint2](chekpoint2/)
+Описание и анализ данных можно найти в папке [checkpoint2](checkpoint2/)
 
 
 
