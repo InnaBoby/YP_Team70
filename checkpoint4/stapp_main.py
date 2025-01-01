@@ -6,6 +6,10 @@ from stapp_page4 import *
 from stapp_page5 import *
 from stapp_page6 import *
 from stapp_page7 import *
+import os
+
+if not os.path.isdir('logs'):
+    os.mkdir('logs')
 
 pg = st.navigation([
     st.Page(page1, title="Главная", icon="🔥"),

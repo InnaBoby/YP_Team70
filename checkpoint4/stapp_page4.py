@@ -1,7 +1,17 @@
 import streamlit as st
 from client import get_list_items, set_model
 import asyncio
+import logging
 import json
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S',
+    filename='./logs/streamlit.log',
+    filemode='a',
+)
+logger = logging.getLogger('./logs/streamlit.log')
 
 def page4():
     st.title('Выбор модели')
@@ -14,7 +24,6 @@ def page4():
     for model in models:
         models_id.append(model['model_id'])
     rag_model_id = st.selectbox('Выберите модель', tuple(models_id))
-
     # Получаем список имеющихся файлов
     async def list_files():
             return await get_list_items('http://localhost:8000/api/v1/list_files')
@@ -24,6 +33,8 @@ def page4():
     for file in files:
         files_names.append(file['retriever_id'])
     retriever_id = st.selectbox('Выберите файл', tuple(files_names))
+    
+    logger.info(f"Пользователь выбрал модель: {rag_model_id}, файл: {retriever_id}")
 
     if st.button('Выбрать модель'):
         async def main():
