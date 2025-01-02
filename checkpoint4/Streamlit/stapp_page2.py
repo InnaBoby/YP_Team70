@@ -1,6 +1,6 @@
 import streamlit as st
 import asyncio
-from client import post_data_from_txt
+from Streamlit.client import post_data_from_txt
 
 def page2():
     st.title('Загрузка данных')

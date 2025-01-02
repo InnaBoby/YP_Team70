@@ -1,6 +1,6 @@
 import streamlit as st
 import asyncio
-from client import invoke
+from Streamlit.client import invoke
 
 def page5():
     st.title('Запрос')

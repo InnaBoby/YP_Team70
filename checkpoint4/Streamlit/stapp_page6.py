@@ -5,7 +5,7 @@ from gensim.models import Word2Vec
 from nltk import FreqDist
 import pandas as pd
 import numpy as np
-from func import *
+from Streamlit.func import *
 from sklearn.manifold import TSNE
 from bokeh.io import output_notebook
 from bokeh.models import ColumnDataSource, LabelSet

@@ -1,6 +1,6 @@
 import streamlit as st
 import asyncio
-from client import create_model
+from Streamlit.client import create_model
 
 def page3():
     st.title('Создание модели')

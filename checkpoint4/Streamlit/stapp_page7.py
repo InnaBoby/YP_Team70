@@ -1,8 +1,8 @@
 import streamlit as st
 import asyncio
 import json
-from func import items_to_list
-from client import get_list_items, delete_item, delete_list_items
+from Streamlit.func import items_to_list
+from Streamlit.client import get_list_items, delete_item, delete_list_items
 
 def page7():
     st.title('Очистка')

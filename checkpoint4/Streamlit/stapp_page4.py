@@ -1,6 +1,6 @@
 import streamlit as st
-from func import items_to_list
-from client import get_list_items, set_model
+from Streamlit.func import items_to_list
+from Streamlit.client import get_list_items, set_model
 import asyncio
 
 def page4():
