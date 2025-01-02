@@ -35,13 +35,13 @@ Retrieval Augmented Generation (RAG) – способ добавления до�
 
 
 
-## Скринкасты работы API сервиса: 
+## Скринкаст работы API сервиса: 
 
 
 ![screencast_fastapi](https://github.com/user-attachments/assets/127271ff-7b60-4378-867c-5911507c47ab)
 
 
-## Скринкасты работы Streamlit  приложения:
+## Скринкаст работы Streamlit  приложения:
 
 ![screencast_streamlit](https://github.com/user-attachments/assets/1f00ac34-9e6b-4370-9c27-0e396a7122cf)
 
