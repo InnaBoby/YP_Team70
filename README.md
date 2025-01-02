@@ -40,5 +40,8 @@ Retrieval Augmented Generation (RAG) – способ добавления до�
 https://drive.google.com/drive/folders/1_rjYzP5AlI_zoYArBjEb-vq2Pq0Lbcoo?usp=sharing 
 
 
+![screencast_fastapi](https://github.com/user-attachments/assets/127271ff-7b60-4378-867c-5911507c47ab)
+
+
 
 
