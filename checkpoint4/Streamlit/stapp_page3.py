@@ -1,4 +1,4 @@
-import streamlit as st
+fastapiimport streamlit as st
 import asyncio
 from Streamlit.client import create_model
 import logging
@@ -22,6 +22,6 @@ def page3():
         req = {"model_id": model_id, "config": config}
     if st.button('Создать модель'):
         async def main():
-            return await create_model('http://localhost:8000/api/v1/create_model', model_id, config)
+            return await create_model('http://fastapi:8000/api/v1/create_model', model_id, config)
 
         st.write(asyncio.run(main()))
