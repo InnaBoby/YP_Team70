@@ -35,4 +35,10 @@ Retrieval Augmented Generation (RAG) – способ добавления до�
 
 
 
+## Скринкасты работы API сервиса и Streamlit  приложения: 
+
+https://drive.google.com/drive/folders/1_rjYzP5AlI_zoYArBjEb-vq2Pq0Lbcoo?usp=sharing 
+
+
+
 
