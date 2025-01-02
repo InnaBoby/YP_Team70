@@ -12,3 +12,4 @@ python-multipart==0.0.20
 seaborn==0.13.2
 streamlit==1.41.1
 tiktoken==0.8.0
+wordcloud==1.9.4
