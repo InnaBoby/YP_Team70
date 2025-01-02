@@ -1,11 +1,16 @@
+import os
+if not os.path.isdir('logs'):
+    os.mkdir('logs')
+
 import streamlit as st
-from stapp_page1 import *
-from stapp_page2 import *
-from stapp_page3 import *
-from stapp_page4 import *
-from stapp_page5 import *
-from stapp_page6 import *
-from stapp_page7 import *
+import logging
+from Streamlit.stapp_page1 import *
+from Streamlit.stapp_page2 import *
+from Streamlit.stapp_page3 import *
+from Streamlit.stapp_page4 import *
+from Streamlit.stapp_page5 import *
+from Streamlit.stapp_page6 import *
+from Streamlit.stapp_page7 import *
 
 pg = st.navigation([
     st.Page(page1, title="Главная", icon="🔥"),
