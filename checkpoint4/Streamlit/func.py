@@ -17,6 +17,7 @@ def items_to_list(func, url, col):
         list_items.append(item[col])
     return list_items
 
+
 def hist_plot(top_words, q_words):
 
     df = pd.DataFrame({'Слово': top_words, 'Количество повторов в тексте': q_words})

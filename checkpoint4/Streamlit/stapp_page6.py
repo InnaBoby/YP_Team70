@@ -1,4 +1,5 @@
 import streamlit as st
+from wordcloud import WordCloud
 import nltk
 from gensim.models import Word2Vec
 from nltk import FreqDist
@@ -22,28 +23,30 @@ def page6():
         data = st.text_input('Введите текст...')
 
     if data is not None:
-        st.write('Начало текста:')
-        st.write(data[:500])
         st.write(f'Длина текста {len(data)} символов')
         st.write(f'Количество слов в тексте {len(data.split())}')
         data = data.lower()
-        tokens = data.split()
-        st.write(len(tokens))
+        st.write('Облако слов')
+        cloud = WordCloud(width=800, height=400, random_state=42,
+                          background_color='white', colormap='Set2', collocations=False
+                          ).generate(data)
+        st.image(cloud.to_array())
 
+        tokens = data.split()
         model_w2v = Word2Vec([tokens], vector_size=300, window=5, min_count=1, workers=-1)
 
         N = st.select_slider('Показать TOP N слов',
                              options=range(0, len(tokens))
                              )
         if N:
-            top_words = []
-            q_words = []
             fd = FreqDist()
             fd.update(tokens)
+            top_words = []
+            q_words = []
             st.dataframe(pd.DataFrame(fd.most_common(N),
                                       columns=['Слово', 'Количество повторов в тексте']
                                       ).set_index('Слово')
-                         )
+                             )
             for word, q in fd.most_common(N):
                 top_words.append(word)
                 q_words.append(q)
