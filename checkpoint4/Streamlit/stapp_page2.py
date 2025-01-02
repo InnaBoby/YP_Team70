@@ -25,7 +25,7 @@ def page2():
             logger.info(f"Загружен файл с именем: {file_to_send['name']}")
 
             async def main():
-                return await post_data_from_txt('http://localhost:8000/api/v1/upload_file', file_to_send)
+                return await post_data_from_txt('http://fastapi:8000/api/v1/upload_file', file_to_send)
 
             st.write(asyncio.run(main()))
         else:
@@ -42,6 +42,6 @@ def page2():
             file_to_send = {'name': uploaded_file.name, 'content': file_content, 'content_type': uploaded_file.type}
 
             async def main():
-                return await post_data_from_txt('http://localhost:8000/api/v1/upload_file', file_to_send)
+                return await post_data_from_txt('http://fastapi:8000/api/v1/upload_file', file_to_send)
 
             st.write(asyncio.run(main()))

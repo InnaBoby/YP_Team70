@@ -1,4 +1,4 @@
-import streamlit as st
+fastapiimport streamlit as st
 import asyncio
 from Streamlit.client import invoke
 import logging
@@ -18,6 +18,6 @@ def page5():
     logger.info(f"Пользователь ввел запрос: {query}")
     if st.button('Отправить'):
         async def main():
-            return await invoke('http://localhost:8000/api/v1/invoke', query)
+            return await invoke('http://fastapi:8000/api/v1/invoke', query)
 
         st.write(asyncio.run(main()))

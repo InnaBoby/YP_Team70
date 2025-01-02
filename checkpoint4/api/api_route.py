@@ -8,8 +8,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from pydantic import BaseModel, RootModel, ConfigDict, Field
 from typing import List, Union, Annotated
 from dataclasses import dataclass
-from checkpoint4.rag.classic_rag import OllamaLLMConfig, ClassicRagModel
-
+from rag.classic_rag import OllamaLLMConfig, ClassicRagModel
 
 @dataclass
 class Current:
