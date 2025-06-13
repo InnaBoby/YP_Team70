@@ -1,0 +1,3 @@
+[submodule "checkpoint7/graphrag-local-ollama"]
+	path = checkpoint7/graphrag-local-ollama
+	url = https://github.com/TheAiSingularity/graphrag-local-ollama.git
